@@ -90,3 +90,11 @@ p {
         max-width: 28%; 
     }   
 }
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.cardText:hover {
+    transform: scale(1.1);
+}

@@ -86,15 +86,20 @@ p {
         flex-wrap: wrap;
     }
     
- .imageCard {
+    .imageCard {
         max-width: 28%; 
     }   
 }
 
-img:hover {
-    transform: scale(1.1);
+    img:hover {
+        transform: scale(1.1);
+        border-right: 10px solid #00A8CC;
+        border-left: 10px solid #00A8CC;
+
 }
 
-.cardText:hover {
-    transform: scale(1.1);
+    .cardText:hover {
+        transform: scale(1.1);
+        border-right: 10px solid #0C7B93;
+        border-left: 10px solid #0C7B93;
 }

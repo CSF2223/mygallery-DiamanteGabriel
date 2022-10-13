@@ -10,7 +10,7 @@ tertiary color: #00A8CC
      selector {property: value;}
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
 
 html {
     font-size: 62.5%;    /*Default size is 16px - 62.5% of 16 is 10px -
@@ -31,9 +31,10 @@ header {
 }
 
 body {
+    background-position: center;
     background-color: #142850;
     color: #00A8CC;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fuzzy Bubbles', cursive;
     margin: 0;
 }
 
@@ -91,6 +92,10 @@ p {
     }   
 }
 
+    header:hover {
+        transform: scale(1.1);
+}
+
     img:hover {
         transform: scale(1.1);
         border-right: 10px solid #00A8CC;
@@ -102,4 +107,8 @@ p {
         transform: scale(1.1);
         border-right: 10px solid #0C7B93;
         border-left: 10px solid #0C7B93;
+}
+
+    .emoji {
+    size: 25px;
 }

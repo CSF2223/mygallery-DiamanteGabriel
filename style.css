@@ -18,21 +18,21 @@ html {
 }
 
 header {
-    margin: 0 4rem;
+    margin: 0 5rem;
     letter-spacing: 0.8rem;
     text-align: center;
-    border-bottom: 1px solid #27496D;
-    border-right: 1px solid #27496D;
-    border-left: 1px solid #27496D;
-    padding: 0.5rem;
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #27496D;
+    border-right: 2px solid #27496D;
+    border-left: 2px solid #27496D;
+    padding: 0.4rem;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
     font-size: 1.1rem;
 }
 
 body {
     background-position: center;
-    background-color: #142850;
+    background-image: radial-gradient(#27496D 25%, #142850 75%);
     color: #00A8CC;
     font-family: 'Fuzzy Bubbles', cursive;
     margin: 0;
@@ -59,6 +59,7 @@ p {
     height: auto;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: grayscale(20%);
 }
 
 .imageCard a {
@@ -71,7 +72,7 @@ p {
     text-align: center;
     padding: 2rem;
     border-radius: 30px;
-    margin-top: 2rem;
+    margin-top: 4rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -93,7 +94,11 @@ p {
 }
 
     header:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
+        border-right: 4px solid #00A8CC;
+        border-left: 4px solid #00A8CC;
+        border-bottom: 4px solid #00A8CC;
+        box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.4);
 }
 
     img:hover {
@@ -109,6 +114,14 @@ p {
         border-left: 10px solid #0C7B93;
 }
 
-    .emoji {
-    size: 25px;
-}
+    h1:hover {
+        color: #FFFFFF;
+    }
+    
+    h4:hover {
+        color: #FFFFFF;
+    }
+    
+    h6:hover {
+        color: #FFFFFF;
+    }
